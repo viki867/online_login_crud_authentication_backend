@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(express.urlencoded({extended:true}));
 app.use(cors({
-origin:'https://employee-management-plum.vercel.app',
+origin:'https://online-class-login-crud-frontend.vercel.app',
 credentials:true,
 methods:["GET","POST","PUT","DELETE"],
 
